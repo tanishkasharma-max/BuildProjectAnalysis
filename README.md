@@ -14,8 +14,6 @@ make
 #### Using CMake
 
 ```bash
-mkdir -p build
-cd build
 cmake .. -G "Makefiles"
 cmake --build .
 ./calculator_app
@@ -23,8 +21,6 @@ cmake --build .
 #### Using Ninja
 
 ```bash
-mkdir -p build
-cd build
 cmake .. -G Ninja
 ninja
 ./calculator_app
