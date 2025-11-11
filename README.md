@@ -7,8 +7,6 @@
 
 ```bash
 make
-# Build the project
-make
 # Run the application
 ./build/calculator_app
 ```
