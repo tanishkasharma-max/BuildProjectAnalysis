@@ -78,7 +78,8 @@ BuildProjectAnalysis/
 
 After build Calculator_app
 
-Enter first number, second number
+Enter first number:
+Enter Second Number:
 
 
 
