@@ -31,6 +31,11 @@ cmake .. -G Ninja
 ninja
 ./calculator_app
 ```
+#### Using Scons
+```bash
+scons
+./app
+```
 #### Using Premake
 
 ```bash
