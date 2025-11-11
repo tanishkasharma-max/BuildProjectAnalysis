@@ -78,8 +78,8 @@ BuildProjectAnalysis/
 
 After build Calculator_app
 
-Enter first number:
-Enter Second Number:
+Enter first number: 10
+Enter Second Number: 20  (Manually enter on terminal)
 
 
 
