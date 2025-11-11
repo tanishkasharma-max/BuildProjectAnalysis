@@ -53,6 +53,7 @@ meson compile -C build/meson
 ./scripts/build.sh ninja
 ./scripts/build.sh premake
 ./scripts/build.sh meson
+./scrips/build.sh scons
 ```
 
 
