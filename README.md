@@ -72,13 +72,13 @@ BuildProjectAnalysis/
 │ ├── calculator.hpp
 │ ├── calculator.cpp
 │ └── main.cpp
-├── scripts/ # Shell scripts
-│ └── build.sh # Unified build script to choose build system
+├── scripts/
+│ └── build.sh 
 ├── build/ # Build output directories
-├── CMakeLists.txt # CMake configuration
-├── premake5.lua # Premake configuration
-├── meson.build # Meson configuration
-└── Makefile # Main Makefile
+├── CMakeLists.txt 
+├── premake5.lua 
+├── meson.build 
+└── Makefile
 '''
 
 After build Calculator_app
