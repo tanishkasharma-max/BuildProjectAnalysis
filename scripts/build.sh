@@ -38,6 +38,13 @@ case "$BUILD_TYPE" in
     make -C "$BUILD_DIR/premake"
     ;;
 
+    scons)
+    echo "Building with SCons..."
+    scons -C "$ROOT_DIR"
+    ;;
+
+  *)
+
   meson)
     echo "Building with Meson..."
     mkdir -p "$BUILD_DIR/meson"
