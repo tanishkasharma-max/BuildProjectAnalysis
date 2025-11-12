@@ -15,18 +15,18 @@ echo "Build directory: $BUILD_DIR"
 
 case "$BUILD_TYPE" in
   make)
-    echo "Building with Make..."
+    echo "Building with Make."
     make -C "$ROOT_DIR"
     ;;
 
   cmake)
-    echo "Building with CMake..."
-    cmake -S "$ROOT_DIR" -B "$BUILD_DIR" -G "Unix Makefiles"
+    echo "Building with CMake."
+    cmake -S "$ROOT_DIR" -B "$BUILD_DIR" -G "Makefiles"
     cmake --build "$BUILD_DIR"
     ;;
 
   ninja)
-    echo "Building with Ninja..."
+    echo "Building with Ninja."
     cmake -S "$ROOT_DIR" -B "$BUILD_DIR" -G Ninja
     cmake --build "$BUILD_DIR"
     ;;
@@ -38,12 +38,10 @@ case "$BUILD_TYPE" in
     make -C "$BUILD_DIR/premake"
     ;;
 
-    scons)
-    echo "Building with SCons..."
-    scons -C "$ROOT_DIR"
+  scons)
+    echo "Building with SCons."
+    (cd "$ROOT_DIR" && scons)
     ;;
-
-  *)
 
   meson)
     echo "Building with Meson..."
@@ -54,7 +52,7 @@ case "$BUILD_TYPE" in
 
   *)
     echo "Unknown build type: $BUILD_TYPE"
-    echo "Options: make | cmake | ninja | premake | meson"
+    echo "Options: make | cmake | ninja | premake | meson | scons"
     exit 1
     ;;
 esac
