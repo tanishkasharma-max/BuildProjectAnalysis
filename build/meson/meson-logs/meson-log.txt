@@ -1,0 +1,212 @@
+Build started at 2025-11-11T19:28:39.819463
+Main binary: /opt/homebrew/opt/python@3.14/bin/python3.14
+Build Options: 
+Python system: Darwin
+The Meson build system
+Version: 1.9.1
+Source dir: /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis
+Build dir: /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson
+Build type: native build
+Project name: CalculatorApp
+Project version: undefined
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+Apple clang version 17.0.0 (clang-1700.0.13.5)
+Target: arm64-apple-darwin24.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+-----------
+Running command: -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 1
+stderr:
+ld: unknown options: --version 
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+-----------
+Detecting Apple linker via: `c++ -Wl,-v` -> 0
+stderr:
+@(#)PROGRAM:ld PROJECT:ld-1167.5
+BUILD 01:45:05 Apr 30 2025
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+-----------
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/sanitycheckcpp.exe
+-----------
+Sanity check: `/Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/sanitycheckcpp.exe` -> 0
+C++ compiler for the host machine: c++ (clang 17.0.0 "Apple clang version 17.0.0 (clang-1700.0.13.5)")
+C++ linker for the host machine: c++ ld64 1167.5
+-----------
+Detecting archiver via: `llvm-ar-17 --version` -> [Errno 2] No such file or directory: 'llvm-ar-17'
+-----------
+Detecting archiver via: `llvm-ar --version` -> [Errno 2] No such file or directory: 'llvm-ar'
+-----------
+Detecting archiver via: `ar --version` -> 1
+stderr:
+usage:  ar -d [-TLsv] archive file ...
+	ar -m [-TLsv] archive file ...
+	ar -m [-abiTLsv] position archive file ...
+	ar -p [-TLsv] archive [file ...]
+	ar -q [-cTLsv] archive file ...
+	ar -r [-cuTLsv] archive file ...
+	ar -r [-abciuTLsv] position archive file ...
+	ar -t [-TLsv] archive [file ...]
+	ar -x [-ouTLsv] archive [file ...]
+-----------
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+Apple clang version 17.0.0 (clang-1700.0.13.5)
+Target: arm64-apple-darwin24.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+-----------
+Running command: -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 1
+stderr:
+ld: unknown options: --version 
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+-----------
+-----------
+Detecting Apple linker via: `c++ -Wl,-v` -> 0
+stderr:
+@(#)PROGRAM:ld PROJECT:ld-1167.5
+BUILD 01:45:05 Apr 30 2025
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+-----------
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/sanitycheckcpp.exe
+-----------
+Sanity check: `/Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/sanitycheckcpp.exe` -> 0
+C++ compiler for the build machine: c++ (clang 17.0.0 "Apple clang version 17.0.0 (clang-1700.0.13.5)")
+C++ linker for the build machine: c++ ld64 1167.5
+-----------
+Detecting archiver via: `llvm-ar-17 --version` -> [Errno 2] No such file or directory: 'llvm-ar-17'
+-----------
+Detecting archiver via: `llvm-ar --version` -> [Errno 2] No such file or directory: 'llvm-ar'
+-----------
+Detecting archiver via: `ar --version` -> 1
+stderr:
+usage:  ar -d [-TLsv] archive file ...
+	ar -m [-TLsv] archive file ...
+	ar -m [-abiTLsv] position archive file ...
+	ar -p [-TLsv] archive [file ...]
+	ar -q [-cTLsv] archive file ...
+	ar -r [-cuTLsv] archive file ...
+	ar -r [-abciuTLsv] position archive file ...
+	ar -t [-TLsv] archive [file ...]
+	ar -x [-ouTLsv] archive [file ...]
+-----------
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Build targets in project: 1
+
+Found ninja-1.13.1 at /opt/homebrew/bin/ninja
+Running compile:
+Working directory:  /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpyprc8orx
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("version")
+          #error "Header 'version' could not be found"
+         #endif
+        #else
+         #include <version>
+        #endif
+-----------
+Command line: `c++ /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpyprc8orx/testfile.cpp -E -P -P -O0 -fpermissive -Werror=implicit-function-declaration` -> 0
+Running compile:
+Working directory:  /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpvnqmk4an
+Code:
+
+        #include <version>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _LIBCPP_VERSION
+                _LIBCPP_VERSION;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `c++ /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpvnqmk4an/testfile.cpp -o /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpvnqmk4an/output.obj -c -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument` -> 0
+Running compile:
+Working directory:  /var/folders/_p/6szj4jc57d576pf818v26dpm0000gn/T/tmpfyj9kac1
+Code:
+int i = static_cast<int>(0);
+-----------
+Command line: `c++ /var/folders/_p/6szj4jc57d576pf818v26dpm0000gn/T/tmpfyj9kac1/testfile.cpp -o /var/folders/_p/6szj4jc57d576pf818v26dpm0000gn/T/tmpfyj9kac1/output.obj -c -std=c++17` -> 0
+Compiler accepts -std=c++17: YES
+Using cached compile:
+Cached command line:  c++ /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpyprc8orx/testfile.cpp -E -P -P -O0 -fpermissive -Werror=implicit-function-declaration 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("version")
+          #error "Header 'version' could not be found"
+         #endif
+        #else
+         #include <version>
+        #endif
+Cached compiler stdout:
+ 
+
+Cached compiler stderr:
+ 
+Using cached compile:
+Cached command line:  c++ /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpvnqmk4an/testfile.cpp -o /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpvnqmk4an/output.obj -c -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument 
+
+Code:
+ 
+        #include <version>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _LIBCPP_VERSION
+                _LIBCPP_VERSION;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Running compile:
+Working directory:  /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpv78ajups
+Code:
+
+-----------
+Command line: `c++ /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpv78ajups/testfile.cpp -o /Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson/meson-private/tmpv78ajups/output.obj -c -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs` -> 0
+stdout:
+programs: =/Library/Developer/CommandLineTools/usr/bin
+libraries: =/Library/Developer/CommandLineTools/usr/lib/clang/17
+-----------

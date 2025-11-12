@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson",
+    "command": "c++ -Icalculator_app.p -I. -I../.. -fdiagnostics-color=always -D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -Wall -Winvalid-pch -std=c++17 -O0 -g -MD -MQ calculator_app.p/src_main.cpp.o -MF calculator_app.p/src_main.cpp.o.d -o calculator_app.p/src_main.cpp.o -c ../../src/main.cpp",
+    "file": "../../src/main.cpp",
+    "output": "calculator_app.p/src_main.cpp.o"
+  },
+  {
+    "directory": "/Users/tanishkasharma/FlambuildProject/BuildProjectAnalysis/build/meson",
+    "command": "c++ -Icalculator_app.p -I. -I../.. -fdiagnostics-color=always -D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -Wall -Winvalid-pch -std=c++17 -O0 -g -MD -MQ calculator_app.p/src_calculator.cpp.o -MF calculator_app.p/src_calculator.cpp.o.d -o calculator_app.p/src_calculator.cpp.o -c ../../src/calculator.cpp",
+    "file": "../../src/calculator.cpp",
+    "output": "calculator_app.p/src_calculator.cpp.o"
+  }
+]
