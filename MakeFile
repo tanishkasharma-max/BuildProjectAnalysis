@@ -1,0 +1,14 @@
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall
+
+TARGET = build/calculator_app
+SRC = src/main.cpp src/calculator.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	mkdir -p build
+	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
+
+clean:
+	rm -rf build/*
